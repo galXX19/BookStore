@@ -12,3 +12,6 @@ Tables:
 - books: holds the isbn, title, year, and publisher id of books
 - authors: holds the name and identifier of the author
 - book authors: hold the book id and the publisher id of a book
+
+Models:
+publisher, author and book author.
