@@ -14,4 +14,8 @@ Tables:
 - book authors: hold the book id and the publisher id of a book
 
 Models:
-publisher, author and book author.
+publisher, author, book, and book author.
+
+Controllers:
+- publisher: shows, creates, deletes, and edits an element
+- 
