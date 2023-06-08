@@ -1,6 +1,6 @@
 # BookStore
 
-Project Description: a RESTful API for a bookstore using the Laravel framework allows:
+Project Description: a bookstore using the Laravel framework allows:
 - users to perform Create, Read, Update, and Delete operations on books stored in the API
 - route to retrieve a list of all books
 - a route to retrieve a specific book by its ID fields title and author
@@ -8,14 +8,15 @@ Project Description: a RESTful API for a bookstore using the Laravel framework a
 - be able to manage the book's tags (isbn number, year, title, publisher)
 
 Tables:
-- publisher: holds the name and identifier of the publisher 
-- books: holds the isbn, title, year, and publisher id of books
-- authors: holds the name and identifier of the author
-- book authors: hold the book id and the publisher id of a book
+- books: holds the title and author of the book
 
 Models:
-publisher, author, book, and book author.
+- book
 
 Controllers:
-- publisher: shows, creates, deletes, and edits an element
-- 
+- book: functions to create, store, edit, update, delete a book
+
+To get started:
+Open the files in vs code or any other laravel supported IDE.
+Run php artisan migrate to create the books table.
+Run php artisan db:seed to create dummy book data such as titles, authors, and tags.
